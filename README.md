@@ -16,7 +16,13 @@ query_expansion(query)
 this function is used to expand our query so that one would be able to get more keywords that are relevant so that google autocomplete API would show more suggested options, and the client would be able to get more Keywords and their relevance point which would depend on the location recent search and various other parameters.
 Finally, a wrapped function was creted.
  
+  ![SEO 3](https://user-images.githubusercontent.com/63113653/148100527-a0ec7a5b-86a6-45c4-a5a8-5f1e7525ac1a.png)
   
+  ![SEO 2](https://user-images.githubusercontent.com/63113653/148100565-298f8147-6f2d-4f55-b047-f1048372f04b.png)
+  
+![SEO 4](https://user-images.githubusercontent.com/63113653/148100581-4ac8333a-e73f-4756-a0b0-8918fb370553.png)
+
+
 
 
  
