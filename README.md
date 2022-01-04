@@ -1,12 +1,15 @@
 # Data-Scrapping_SEO
 Search Engine Optimization
 SEO is a technique of using tools to ensure that your website gets a high ranking in the Google Search Engine Results Page (SERP), using data scrapping created a code that takes the input query and  such as “amazon” and using google autocomplete API completes that query and tells us the relevance and the most relevant key that are necessary and needed to optimize the engine,
-**Libraries used **
-Urllib
-Json 
-Pandaas 
-Numpy 
-Requests_html 
+
+**Libraries used ******
+
+**Urllib,
+Json, 
+Pandas, 
+Numpy, 
+Requests_html** 
+
 _****Code consists of various functions and each of which has its role ****_
 **Get_url()**
 
@@ -19,7 +22,10 @@ This function will take the query and create the desired Url, “urllib.parse.qu
 **query_expansion(query)**
 this function is used to expand our query so that one would be able to get more keywords that are relevant so that google autocomplete API would show more suggested options, and the client would be able to get more Keywords and their relevance point which would depend on the location recent search and various other parameters.
 Finally, a wrapped function was creted.
+
  
+ ![seo 1](https://user-images.githubusercontent.com/63113653/148101028-f2e3a6de-a515-4372-9775-470b2401a387.png)
+
   ![SEO 3](https://user-images.githubusercontent.com/63113653/148100527-a0ec7a5b-86a6-45c4-a5a8-5f1e7525ac1a.png)
   
   ![SEO 2](https://user-images.githubusercontent.com/63113653/148100565-298f8147-6f2d-4f55-b047-f1048372f04b.png)
