@@ -40,3 +40,24 @@ Finally, a wrapped function was creted.
  
 
  
+
+## Command-line tool
+
+`seo_keywords.py` runs the same keyword search from the terminal. It uses only the Python standard library, so you don't need to install anything.
+
+```bash
+# Autocomplete suggestions for a query, sorted by relevance
+python seo_keywords.py amazon
+
+# Expand the query with prefixes ("how to", "best", ...) and a-z suffixes, keep the top 50
+python seo_keywords.py amazon --expand --limit 50
+
+# Save as CSV or JSON
+python seo_keywords.py "running shoes" --expand --format csv -o keywords.csv
+python seo_keywords.py amazon --format json
+
+# Localise results by language/country
+python seo_keywords.py amazon --lang en --country in
+```
+
+Run `python seo_keywords.py --help` for all options. Each keyword appears only once in the results, with the highest relevance it was given.
